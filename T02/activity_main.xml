@@ -20,33 +20,41 @@
         android:hint="Empresa"/>
 
     <EditText
+        android:id="@+id/etEdad"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Edad"/>
 
     <Button
+        android:id="@+id/btnDatos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Mostrar Datos"/>
 
     <EditText
+        android:id="@+id/etVal1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Ingresa un valor"/>
+        android:hint="Ingresa un valor"
+        android:inputType="number"/>
 
     <EditText
+        android:id="@+id/etVal2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Ingresa un valor"/>
+        android:hint="Ingresa un valor"
+        android:inputType="number"/>
 
 
 
     <Button
+        android:id="@+id/btnSumar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sumar"/>
 
     <Button
+        android:id="@+id/btnMultiplicar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Multiplicar"/>
