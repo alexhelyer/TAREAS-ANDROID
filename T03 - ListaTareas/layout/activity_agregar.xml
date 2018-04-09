@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".AgregarActivity">
+
+    <Spinner
+        android:id="@+id/inCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp">
+    </Spinner>
+
+    <EditText
+        android:id="@+id/inTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:hint="Titulo"/>
+
+    <EditText
+        android:id="@+id/inDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="top"
+        android:layout_marginVertical="5dp"
+        android:hint="Descripción"/>
+
+    <Button
+        android:id="@+id/btnFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFF"
+        android:background="#FFF"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:layout_marginVertical="5dp"
+        android:text="01 ENE, 2018"/>
+
+    <Button
+        android:id="@+id/btnAgregar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Agregar"/>
+
+
+</LinearLayout>
